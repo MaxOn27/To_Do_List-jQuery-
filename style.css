@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #d7ebfc;
+    text-align: center;
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 200px;
+    box-shadow: 1px 1px 12px 2px rgba(0, 0, 0, 0.58);
+    object-fit: contain;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #2b2b53;
+    border-radius: 30px;
+    height: 200px;
+    background-color: #2b2b53;
+}
+
+.appName {
+    margin: 15px 400px;
+    border-bottom: 1px solid #fff;
+    font-family: "Arial Narrow";
+    color: #fff;
+}
+
+#input {
+    height: 27px;
+    background: #fff;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    outline: none;
+    margin: 20px 380px 25px 380px;
+    font-size: 18px;
+}
+
+.btn {
+    cursor: pointer;
+    margin: 0 10px;
+    width: 125px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background-color: #fff;
+    font-family: "Arial Narrow";
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.btn:hover {
+    transform: scale(1.04);
+    transition: ease-out 0.5s;
+}
+
+.task-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 40px 130px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+li {
+    display: flex;
+    width: 100%;
+    margin: 10px;
+    font-size: 30px;
+    font-weight: 800;
+    font-family: "Arial Narrow";
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.text-wrapper {
+    display: flex;
+    align-items: center;
+    width: 80%;
+}
+
+.btn-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0 10px;
+    width: 20%;
+}
+
+.doneBtn {
+    cursor: pointer;
+    background: none;
+    outline: none;
+    border: none;
+    margin: 0 5px;
+    width: 60px;
+    font-size: 30px;
+    font-weight: 800;
+    color: #1d7a02;
+}
+
+.declineBtn {
+    cursor: pointer;
+    background: none;
+    outline: none;
+    border: none;
+    margin: 0 5px;
+    width: 60px;
+    font-size: 30px;
+    font-weight: 800;
+    color: #990909;
+}
